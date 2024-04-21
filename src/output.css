@@ -987,10 +987,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-t-\[\#3f3r45\]{
-  border-top-color: #3f3r45;
-}
-
 .border-t-\[\#3f3e45\]{
   --tw-border-opacity: 1;
   border-top-color: rgb(63 62 69 / var(--tw-border-opacity));
@@ -1415,6 +1411,10 @@ video {
 
   .sm\:flex-row{
     flex-direction: row;
+  }
+
+  .sm\:flex-nowrap{
+    flex-wrap: nowrap;
   }
 
   .sm\:justify-start{
